@@ -6,6 +6,13 @@
  *    user zoom.
  */
 
+@font-face {
+  font-family: 'Architects Daughter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Architects Daughter'), local('ArchitectsDaughter'), url(https://fonts.gstatic.com/s/architectsdaughter/v6/RXTgOOQ9AAtaVOHxx0IUBOlC2pU_uJZcAXPUd4HCQp8.ttf) format('truetype');
+}
+
 html {
   font-family: sans-serif; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
