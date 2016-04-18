@@ -4,49 +4,54 @@
     <meta charset="UTF-8">
     <title>Buttons</title>
     <link rel="stylesheet" type="text/css" href="../libs/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="../stylesheets/stylesheet.css">
     <link rel="stylesheet" href="index-btn.css">
-
 </head>
 <body>
-    <section>
-        <ul>
-            <li>
-                <h3>一、牛奶样式加减按钮</h3>
-                <div class="container1">
-                    <div class="toggle">
+    <div id="content-wrapper">
+        <section id="main-content">
+            <ul>
+                <li>
+                    <h3>牛奶样式加减按钮</h3>
+                    <div class="container1">
+                        <div class="toggle">
+                            <input type="checkbox">
+                            <span class="button"></span>
+                            <span class="label">+</span>
+                        </div>
+                        <div class="toggle">
+                            <input type="checkbox" checked>
+                            <span class="button"></span>
+                            <span class="label">-</span>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <h3>电器开关按钮</h3>
+                    <div class="container2">
                         <input type="checkbox">
-                        <span class="button"></span>
-                        <span class="label">+</span>
+                        <label for=""></label>
                     </div>
-                    <div class="toggle">
-                        <input type="checkbox" checked>
-                        <span class="button"></span>
-                        <span class="label">-</span>
+                </li>
+                <li>
+                    <h3>iPhone锁屏样式按钮</h3>
+                    <div class="container3">
+                        <input type="checkbox">
+                        <label><i></i></label>
                     </div>
-                </div>
-            </li>
-            <li>
-                <h3>二、电器开关按钮</h3>
-                <div class="container2">
-                    <input type="checkbox">
-                    <label for=""></label>
-                </div>
-            </li>
-            <li>
-                <h3>三、iPhone锁屏样式按钮</h3>
-                <div class="container3">
-                    <input type="checkbox">
-                    <label><i></i></label>
-                </div>
-            </li>
-            <li>
-                <h3>四、呼吸灯感按钮</h3>
-                <div class="container4">
-                    <input type="checkbox">
-                    <label><i class="fa fa-power-off"></i></label>
-                </div>
-            </li>
-        </ul>
-    </section>
+                </li>
+                <li>
+                    <h3>呼吸灯感按钮</h3>
+                    <div class="container4">
+                        <input type="checkbox">
+                        <label><i class="fa fa-power-off"></i></label>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <aside id="sidebar">
+            <a href="https://journix.github.io/"><i class="fa fa-home"></i>&nbsp;Home Page</a><br><a href="https://github.com/Journix"><i class="fa fa-github-square"></i>&nbsp;follow me on github</a>
+        </aside>
+    </div>
 </body>
 </html>
