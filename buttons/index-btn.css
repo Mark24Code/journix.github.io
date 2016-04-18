@@ -4,6 +4,9 @@ ul {
 li {
     margin:20px;
 }
+input{
+    margin:0;
+}
 /*
 button1
 */
@@ -117,7 +120,6 @@ button2
     position: absolute;
     top:0;
     right:0;
-    margin:0;
     z-index:100;
 }
 .container2 label:after {
